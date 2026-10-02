@@ -1,0 +1,15 @@
+mod schema;
+
+use crate::schema::{Status, Task};
+
+fn main() {
+    let t1 = Task {
+        status : Status::Done, 
+        id : 123, 
+        task : String::from("bring me a glass of water"),
+    };
+
+    println!("{:?}", t1);
+
+    dbg!(&t1);
+}
