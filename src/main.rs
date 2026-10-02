@@ -1,4 +1,5 @@
 mod schema;
+mod manager;
 
 use crate::schema::{Status, Task};
 
